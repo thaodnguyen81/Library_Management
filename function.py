@@ -1,3 +1,8 @@
+import os
+import json
+import tkinter as tk
+from tkinter import messagebox
+
 class Book:
     def __init__(self, book_id, title, author, genre, quantity, year):
         # 'self' refers to this specific book instance
