@@ -1,0 +1,61 @@
+{
+    "books": [
+        {
+            "id": "111",
+            "title": "Bible",
+            "author": "Jesus",
+            "genre": "Religious",
+            "year": "0"
+        },
+        {
+            "id": "112",
+            "title": "Coran",
+            "author": "MAhoma",
+            "genre": "Religious",
+            "year": "10"
+        },
+        {
+            "id": "Lord of the Rings",
+            "title": "lord of the rings",
+            "author": "JRR Tolkien",
+            "genre": "Fantasy",
+            "year": "1970"
+        },
+        {
+            "id": "114",
+            "title": "Quijote",
+            "author": "Miguel de Cervantes",
+            "genre": "Fantasy",
+            "year": "1500"
+        },
+        {
+            "id": "115",
+            "title": "Cien a\u00f1os de soledad",
+            "author": "Gabriel Garcia Marquez",
+            "genre": "Love",
+            "year": "1965"
+        }
+    ],
+    "members": [
+        {
+            "id": "001",
+            "name": "Mateo"
+        },
+        {
+            "id": "002",
+            "name": "Jacobo"
+        },
+        {
+            "id": "003",
+            "name": "Leo"
+        },
+        {
+            "id": "004",
+            "name": "Ivan"
+        },
+        {
+            "id": "005",
+            "name": "Javier"
+        }
+    ]
+}
