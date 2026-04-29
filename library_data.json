@@ -1,61 +1,36 @@
 {
     "books": [
         {
-            "id": "111",
-            "title": "Bible",
-            "author": "Jesus",
-            "genre": "Religious",
-            "year": "0"
-        },
-        {
-            "id": "112",
-            "title": "Coran",
-            "author": "MAhoma",
-            "genre": "Religious",
-            "year": "10"
-        },
-        {
-            "id": "Lord of the Rings",
-            "title": "lord of the rings",
-            "author": "JRR Tolkien",
-            "genre": "Fantasy",
-            "year": "1970"
-        },
-        {
-            "id": "114",
-            "title": "Quijote",
-            "author": "Miguel de Cervantes",
-            "genre": "Fantasy",
-            "year": "1500"
-        },
-        {
-            "id": "115",
-            "title": "Cien a\u00f1os de soledad",
-            "author": "Gabriel Garcia Marquez",
-            "genre": "Love",
-            "year": "1965"
+            "id": "B001",
+            "title": "The Lord of the Rings: 50th Anniversary Edition",
+            "author": "J.R.R. Tolkien",
+            "genre": "High fantasy",
+            "year": "2004",
+            "available": true
         }
     ],
     "members": [
         {
-            "id": "001",
-            "name": "Mateo"
+            "id": "M001",
+            "name": "Thao"
+        }
+    ],
+    "loans": [
+        {
+            "member_id": "M001",
+            "book_id": "B001",
+            "borrow_date": "2026-04-29",
+            "due_date": "2026-05-13",
+            "returned": true,
+            "return_date": "2026-04-20"
         },
         {
-            "id": "002",
-            "name": "Jacobo"
-        },
-        {
-            "id": "003",
-            "name": "Leo"
-        },
-        {
-            "id": "004",
-            "name": "Ivan"
-        },
-        {
-            "id": "005",
-            "name": "Javier"
+            "member_id": "M001",
+            "book_id": "B001",
+            "borrow_date": "2026-04-29",
+            "due_date": "2026-05-13",
+            "returned": true,
+            "return_date": "2026-05-18"
         }
     ]
 }
